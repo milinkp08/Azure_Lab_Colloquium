@@ -21,8 +21,8 @@ _STORAGE_ACCOUNT_NAME = 'lab6ayushstorage'
 _STORAGE_ACCOUNT_KEY = '/g1sXVeXLK98SEMLT5R/yl3LnTAvJC9qClk3wdHsTi6pJOYYwCpLLmhXMAfndRQByVk0egRDpOem52VbOfZJ7A=='
 _STORAGE_ACCOUNT_DOMAIN = 'blob.core.windows.net' # Your storage account blob service domain
 
-_POOL_ID = 'lab6pool'  # Your Pool ID
-_POOL_NODE_COUNT = 2  # Pool node count
+_POOL_ID = 'lab6ayushpool'  # Your Pool ID
+_POOL_NODE_COUNT = 4  # Pool node count
 _POOL_VM_SIZE = 'STANDARD_DS1_V2'  # VM Type/Size
-_JOB_ID = 'lab6job'  # Job ID
+_JOB_ID = 'lab6ayushjob'  # Job ID
 _STANDARD_OUT_FILE_NAME = 'stdout.txt'  # Standard Output file
