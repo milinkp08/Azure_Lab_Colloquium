@@ -1,1 +1,1 @@
-Azure Batch schedules compute-intensive work to run on a managed collection of virtual machines and can automatically scale compute resources to meet the needs of your jobs.
+﻿Azure Batch schedules compute-intensive work to run on a managed collection of virtual machines and can automatically scale compute resources to meet the needs of your jobs.
