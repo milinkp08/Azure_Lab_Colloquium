@@ -153,12 +153,12 @@ def create_pool(batch_service_client, pool_id):
         id=pool_id,
         virtual_machine_configuration=batchmodels.VirtualMachineConfiguration(
             image_reference=batchmodels.ImageReference(
-                publisher="canonical",
-                offer="0001-com-ubuntu-server-focal",
-                sku="20_04-lts",
+                publisher="microsoftwindowsserver",
+                offer="windowsserver",
+                sku="2019-datacenter-core-smalldisk",
                 version="latest"
             ),
-            node_agent_sku_id="batch.node.ubuntu 20.04"),
+            node_agent_sku_id="batch.node.windows amd64"),
         vm_size=config._POOL_VM_SIZE,
         target_dedicated_nodes=config._POOL_NODE_COUNT
     )
