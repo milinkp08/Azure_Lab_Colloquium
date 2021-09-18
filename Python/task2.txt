@@ -1,1 +1,1 @@
-
+I have designed a simple python console application to collect data, cleans, process and store into a data lake. I show how Azure Batch executes many instances of my python console application across many virtual machine nodes in parallel. Thus, leveraging the unique capability of very high scalability and agility of modern cloud computing.
