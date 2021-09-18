@@ -322,9 +322,9 @@ if __name__ == '__main__':
         pass
 
     # The collection of data files that are to be processed by the tasks.
-    input_file_paths = [os.path.join(sys.path[0], 'task1.txt'),
-                        os.path.join(sys.path[0], 'task2.txt'),
-                        os.path.join(sys.path[0], 'task3.txt')]
+    input_file_paths = [os.path.join(sys.path[0], 'task0.txt'),
+                        os.path.join(sys.path[0], 'task1.txt'),
+                        os.path.join(sys.path[0], 'task2.txt')]
 
     # Upload the data files.
     input_files = [
