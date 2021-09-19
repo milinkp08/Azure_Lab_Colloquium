@@ -51,11 +51,11 @@ import common.helpers  # noqa
 # unique to your accounts. These are used when constructing connection strings
 # for the Batch and Storage client objects.
 _BATCH_ACCOUNT_NAME = 'lab7ayush'
-_BATCH_ACCOUNT_KEY = '9F+lxc9/xCjMFkz0nrrCrylo+jwlMflTvxxlsog+Z0rUPzB0cmDJlyyDpSzZwwuthK9L+7W+w8Yp1QLF9mTijw=='
+_BATCH_ACCOUNT_KEY = 'qdafESxG7xPNLqaC2WPlz5iUratf/68d+812rSA/Kq9oC1TLXiE4C0ir4VpY9xdzRVmQmd49cUFz9Q3+X7lfIA=='
 _BATCH_ACCOUNT_URL = 'https://lab7ayush.norwayeast.batch.azure.com'
 
 _STORAGE_ACCOUNT_NAME = 'lab7ayushstorage'
-_STORAGE_ACCOUNT_KEY = 'eri0jRwbM28zld3QMbTyH7oPhMOOrbl4KORbJpfKO0TJr/xdYyXZLHfkPal17dsbwXS4qHA9WNNPAdrnAMmUYg=='
+_STORAGE_ACCOUNT_KEY = 'U2YCd3Jkvgcs9ySxPD1N96zBnvGFLHFQSBpbbeVpCGGo22F4WMnpGD3vi9zBfgHhDnf8UiqDFDdD83W8KDRpQw=='
 
 _POOL_ID = 'lab7pool'
 _POOL_NODE_COUNT = 20
