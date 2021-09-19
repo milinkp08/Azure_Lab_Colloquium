@@ -38,7 +38,8 @@ except NameError:
     pass
 
 import azure.storage.blob as azureblob
-import azure.batch.batch_service_client as batch
+#import azure.batch.batch_service_client as batch
+from azure.batch import BatchServiceClient as batch
 import azure.batch.batch_auth as batchauth
 import azure.batch.models as batchmodels
 
