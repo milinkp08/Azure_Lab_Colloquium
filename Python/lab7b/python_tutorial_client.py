@@ -380,9 +380,9 @@ if __name__ == '__main__':
     #                   os.path.realpath('./data/taskdata3.txt')]
 
     input_file_paths =[]
-    datafiles = listdir('.\data')
+    datafiles = listdir('./data')
     for datafile in datafiles:
-        datafilepath =  '.\data\\' + datafile
+        datafilepath =  './data/' + datafile
         datafilepath = os.path.realpath(datafilepath)
         input_file_paths.append(datafilepath)
         print(input_file_paths)
