@@ -9,8 +9,8 @@ _BATCH_ACCOUNT_KEY = 'wFKsF3oX1bH1pxnPq71mf2Zo5rmJKRk24JQ/0aFVuWJT6f//+rHellIWC8
 _BATCH_ACCOUNT_URL = 'https://lab7ayush.norwayeast.batch.azure.com'
 _STORAGE_ACCOUNT_NAME = 'lab7ayush'
 _STORAGE_ACCOUNT_KEY = '7aYypzez3dBoYaGvw+4T32RxlZOatVX5R+j5B6ngSWf/aHoraeNf+5miRVlZ2oFe5vdubRR5vLchPk13By4GoA=='
-_POOL_ID = 'lab7aPool'
+_POOL_ID = 'lab7_Pool'
 _DEDICATED_POOL_NODE_COUNT = 1
 _LOW_PRIORITY_POOL_NODE_COUNT = 4
 _POOL_VM_SIZE = 'STANDARD_A1_v2'
-_JOB_ID = 'lab7ajob'
+_JOB_ID = 'lab7_job'
