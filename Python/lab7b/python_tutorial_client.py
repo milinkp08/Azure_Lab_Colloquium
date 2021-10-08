@@ -23,21 +23,21 @@ import common.helpers  # noqa
 # Update the Batch and Storage account credential strings below with the values
 # unique to your accounts. These are used when constructing connection strings
 # for the Batch and Storage client objects.
-_BATCH_ACCOUNT_NAME = 'lab7b'
-_BATCH_ACCOUNT_KEY = '0000000000000000000000000000000000000000000000000000000000000000000000000'
-_BATCH_ACCOUNT_URL = 'https://batchdemo.westeurope.batch.azure.com'
+_BATCH_ACCOUNT_NAME = 'lab7ayush'
+_BATCH_ACCOUNT_KEY = 'wFKsF3oX1bH1pxnPq71mf2Zo5rmJKRk24JQ/0aFVuWJT6f//+rHellIWC8oZtN0pg9ieURAcNZ29nzn5xDtm4A=='
+_BATCH_ACCOUNT_URL = 'https://lab7ayush.norwayeast.batch.azure.com'
 
-_STORAGE_ACCOUNT_NAME = 'batchdemosa'
-_STORAGE_ACCOUNT_KEY = '00000000000000000000000000000000000000000000000000000000000000000000000000'
+_STORAGE_ACCOUNT_NAME = 'lab7ayush'
+_STORAGE_ACCOUNT_KEY = '7aYypzez3dBoYaGvw+4T32RxlZOatVX5R+j5B6ngSWf/aHoraeNf+5miRVlZ2oFe5vdubRR5vLchPk13By4GoA=='
 
-_POOL_ID = 'PythonTutorialPool'
+_POOL_ID = 'lab7b_Pool'
 _POOL_NODE_COUNT = 20
-_POOL_VM_SIZE = 'BASIC_A1'
+_POOL_VM_SIZE = 'STANDARD_A1_v2'
 _NODE_OS_PUBLISHER = 'Canonical'
 _NODE_OS_OFFER = 'UbuntuServer'
 _NODE_OS_SKU = '16'
 
-_JOB_ID = 'PythonTutorialJob'
+_JOB_ID = 'lab7b_job'
 
 _TUTORIAL_TASK_FILE = 'python_tutorial_task.py'
 
