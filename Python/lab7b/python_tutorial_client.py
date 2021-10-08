@@ -414,7 +414,7 @@ if __name__ == '__main__':
 
     batch_client = batch.BatchServiceClient(
         credentials,
-        base_url=_BATCH_ACCOUNT_URL)
+        base_url='https://lab7ayush.norwayeast.batch.azure.com')
 
     # Create the pool that will contain the compute nodes that will execute the
     # tasks. The resource files we pass in are used for configuring the pool's
