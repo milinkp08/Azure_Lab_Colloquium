@@ -30,14 +30,14 @@ _BATCH_ACCOUNT_URL = 'https://lab7ayush.norwayeast.batch.azure.com'
 _STORAGE_ACCOUNT_NAME = 'lab7ayush'
 _STORAGE_ACCOUNT_KEY = '7aYypzez3dBoYaGvw+4T32RxlZOatVX5R+j5B6ngSWf/aHoraeNf+5miRVlZ2oFe5vdubRR5vLchPk13By4GoA=='
 
-_POOL_ID = 'lab7b_Pool'
+_POOL_ID = 'lab7b__Pool'
 _POOL_NODE_COUNT = 20
-_POOL_VM_SIZE = 'STANDARD_A1_v2'
+_POOL_VM_SIZE = 'BASIC_A1'
 _NODE_OS_PUBLISHER = 'Canonical'
 _NODE_OS_OFFER = 'UbuntuServer'
 _NODE_OS_SKU = '16'
 
-_JOB_ID = 'lab7b_job'
+_JOB_ID = 'lab7b__job'
 
 _TUTORIAL_TASK_FILE = 'python_tutorial_task.py'
 
